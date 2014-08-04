@@ -21,7 +21,7 @@ import com.sun.jersey.api.client.config.DefaultClientConfig;
 
 public class ToDoListClient {
 
-	public static final String BASE_URI = "http://localhost:8080/todolistapplication/jaxrs/";
+	public static final String BASE_URI = "http://secret-coast-2427.herokuapp.com/jaxrs/";
 	public static final String PATH_GETLIST = "/todolist/";
 	private static ClientConfig config = new DefaultClientConfig();
 	private static Client client = Client.create(config);
